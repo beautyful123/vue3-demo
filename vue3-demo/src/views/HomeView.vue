@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+    setup{
+      name: 'test'
+    }
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+      <div>{{ name }}</div>
   </main>
 </template>
